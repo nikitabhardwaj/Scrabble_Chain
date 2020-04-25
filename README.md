@@ -1,5 +1,5 @@
-# Scrabble
-Command line scrabble game written in python. 
+# Scrabble_Chain
+Command line scrabble game written in python.It is a cloned version in which we are going to add UI,Wallets for tezos to build a blockchain.
 
 ## In order to run the game:
 Please navigate to the correct folder in your file system, and run `python scrabble.py`.
