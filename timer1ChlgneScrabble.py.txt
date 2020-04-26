@@ -1,0 +1,16 @@
+import time
+
+def tick(time1=''):
+    time2=time.strftime("%M:%S")
+    if time2!=time1
+        time1=time2;
+        timer.config(text="After 1 minute it will close automatically "+time2)
+    timer.after(200,tick)
+
+def quit_pro():
+    messagebox.showinfo("OOPS!!!!!", Time UP!! You earned "+str(score))
+    window.destroy()
+
+tick()
+
+Windows.after(60000,quit_pro);
