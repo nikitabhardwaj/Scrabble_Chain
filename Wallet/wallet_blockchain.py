@@ -1,8 +1,5 @@
-from flask import Flask, jsonify, render_template
+from flask import Flask, render_template
 from time import time
-import Crypto
-import Crypto.Random
-from Crypto.PublicKey import RSA
 
 
 class Blockchain:
@@ -42,7 +39,7 @@ def index():
 
 if __name__ == '__main__':
     from argparse import ArgumentParser
-
+    # node to be replaced by urls
     parser = ArgumentParser()
     parser.add_argument('-p', '--port', default=5001, type=int, help="port to listen to")
     args = parser.parse_args()
