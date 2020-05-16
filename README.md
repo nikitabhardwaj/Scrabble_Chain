@@ -18,3 +18,7 @@ Note: After the first turn, all plays must have at least one letter that interlo
 If there are no words that you can think to create using your current tile rack, simply submit a blank word, and the computer will ask if you would like to skip your turn. However, after 6 skipped turns in a row (as a whole, not by one particular player), the game will come to an end. The game will also end if the bag runs out of tiles and a player has run out of tiles. 
 
 When the game ends, all player's scores will be compared, and whomever has the most points will win!
+
+Limitations
+
+Human players only. No computer players are available.
